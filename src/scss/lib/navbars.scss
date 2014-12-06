@@ -1,26 +1,26 @@
 .navbar-app {  
-  min-height: @navbar-app-height;
-  border-color: @navbar-default-border;
-  background: @navbar-default-bg;
+  min-height: $navbar-app-height;
+  border-color: $navbar-default-border;
+  background: $navbar-default-bg;
   border-width: 1px;
   border-style: solid;
-  color: @navbar-default-color;
+  color: $navbar-default-color;
 
   .btn-icon-only .fa, .btn-icon-only .icon {
-    font-size: @btn-icon-only-font-size;
+    font-size: $btn-icon-only-font-size;
     vertical-align: middle;
   }
 
  .btn-navbar, .btn {
     background: none;
     border: none;
-    line-height: @navbar-app-height;
+    line-height: $navbar-app-height;
     padding-top: 0;
     padding-bottom: 0;
-    color: @navbar-default-link-color;
+    color: $navbar-default-link-color;
     text-transform: uppercase;
     &:hover {
-      color: @navbar-default-link-color;
+      color: $navbar-default-link-color;
     }
   }
 
@@ -42,7 +42,7 @@
 
 .navbar-absolute-top, .navbar-absolute-bottom {
   position: absolute;
-  z-index: @zindex-navbar;
+  z-index: $zindex-navbar;
   border-width: 0;
   left: 0;
   right: 0;
@@ -51,11 +51,11 @@
 }
 
 .has-navbar-top .app-body {
-  padding-top: @navbar-app-height + 1;
+  padding-top: $navbar-app-height + 1;
 }
 
 .has-navbar-bottom .app-body {
-  padding-bottom: @navbar-app-height + 1;
+  padding-bottom: $navbar-app-height + 1;
 }
 
 .navbar-absolute-top {

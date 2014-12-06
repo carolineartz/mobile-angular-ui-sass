@@ -10,17 +10,17 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  font-weight: @font-weight;
+  font-weight: $font-weight;
 }
 
 a {
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  color: @link-color;
+  color: $link-color;
 }
 
 a:active, .btn:active {
-  .opacity(@active-link-opacity);
+  .opacity($active-link-opacity);
   .box-shadow(none);
 }
 
@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .page-header {
-  margin-top: @page-header-margin-top;
+  margin-top: $page-header-margin-top;
   h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0;
     padding-bottom: 0;

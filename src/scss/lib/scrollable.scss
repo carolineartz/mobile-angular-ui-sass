@@ -15,7 +15,7 @@
   width: 100%;
   left: 0;
   right: 0;
-  z-index: @zindex-navbar;
+  z-index: $zindex-navbar;
   display: block;
   border-radius: 0;
   border-left: 0;
@@ -40,9 +40,9 @@
 // deprecated!
 
 .sidebar-header+.scrollable,.app-name+.scrollable{
-  padding-top: @sidebar-header-height;
+  padding-top: $sidebar-header-height;
 }
 
 .app-search + .scrollable {
-  padding-top: @input-height-base;
+  padding-top: $input-height-base;
 }

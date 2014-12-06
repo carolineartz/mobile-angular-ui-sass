@@ -1,13 +1,13 @@
 .app {
   height: 100%;
   position: relative;
-  z-index: @zindex-app;
+  z-index: $zindex-app;
   width: 100%;
-  background: @app-bg;
+  background: $app-bg;
   overflow: hidden;
   .translate3d(0,0,0);
   .transition-transform(~"400ms ease");
-  .box-shadow(@app-shadow);
+  .box-shadow($app-shadow);
 }
 
 .app-body {
@@ -29,6 +29,6 @@
 .app-search {
   position: relative;
   border-width: 0 0 1px;
-  z-index: @zindex-app-search;
+  z-index: $zindex-app-search;
   width: 100%;
 }

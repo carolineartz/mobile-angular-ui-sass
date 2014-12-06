@@ -2,7 +2,7 @@
 .list-group-item, a.list-group-item {
   margin-bottom: 0;
   border: 0 none;
-  border-bottom: 1px solid @list-group-border;
+  border-bottom: 1px solid $list-group-border;
 
   &:first-child {
     border-top-right-radius: 0;
@@ -15,7 +15,7 @@
   }
 
   .fa.pull-right, .icon.pull-right {
-    line-height: @line-height-base;
+    line-height: $line-height-base;
   }
 }
 

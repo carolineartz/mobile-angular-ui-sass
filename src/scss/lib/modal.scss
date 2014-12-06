@@ -7,11 +7,11 @@
 }
 
 .modal-dialog {
-  z-index: @zindex-modal;
+  z-index: $zindex-modal;
 }
 
 .modal-overlay {
-  background: @overlay-background;
+  background: $overlay-background;
   .modal-content, .modal-dialog {
       background: none;
       .box-shadow(none);
@@ -27,8 +27,8 @@
 
 .has-modal-overlay {
   .app, .sidebar {
-    -webkit-filter: blur(@overlay-blur);
-    -ms-filter: blur(@overlay-blur); // hope someday will be used
-    filter: blur(@overlay-blur);
+    -webkit-filter: blur($overlay-blur);
+    -ms-filter: blur($overlay-blur); // hope someday will be used
+    filter: blur($overlay-blur);
   }
 }

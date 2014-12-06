@@ -10,16 +10,16 @@
 }
 
 .sidebar-left {
-  background: @sidebar-left-background;
-  width: @sidebar-left-width;
+  background: $sidebar-left-background;
+  width: $sidebar-left-width;
   left: 0;
   right: auto;
   .transition(~"width 400ms ease");
 }
 
 .sidebar-right {
-  background: @sidebar-right-background;
-  width: @sidebar-right-width;
+  background: $sidebar-right-background;
+  width: $sidebar-right-width;
   left: auto;
   right: 0;
   .transition(~"width 400ms ease");
@@ -35,23 +35,23 @@
 
 .sidebar-left-in .app {
   width: 100%;
-  .translate(@sidebar-left-width, 0);
+  .translate($sidebar-left-width, 0);
   .transition-transform(~"400ms ease");
 }
 
 .sidebar-right-in .app {
   width: 100%;
-  .translate(-@sidebar-right-width, 0);
+  .translate(-$sidebar-right-width, 0);
   .transition-transform(~"400ms ease");
 }
 
 .sidebar-header, .app-name {
   position: relative;
   width: 100%;
-  line-height: @sidebar-header-height;
-  padding: @sidebar-header-padding;
-  font-size: @sidebar-header-font-size;
-  color: @sidebar-header-color;
+  line-height: $sidebar-header-height;
+  padding: $sidebar-header-padding;
+  font-size: $sidebar-header-font-size;
+  color: $sidebar-header-color;
   margin: 0;
-  z-index: @zindex-sidebar-header;
+  z-index: $zindex-sidebar-header;
 }
