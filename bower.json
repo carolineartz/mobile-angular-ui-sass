@@ -39,6 +39,7 @@
   "devDependencies": {
     "font-awesome": "4",
     "bootstrap": "3",
+    "bootstrap-sass-official": "3",
     "fastclick": "1",
     "overthrow": "0.7"
   }

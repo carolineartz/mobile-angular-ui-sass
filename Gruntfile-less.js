@@ -38,13 +38,12 @@ module.exports = function(grunt) {
     less: {
       dist: {
         options: {
-          outputStyle: 'nested',
-          paths: ["src/scss", "bower_components"]
+          paths: ["src/less", "bower_components"]
         },
         files: {
-          "tmp/mobile.css": "src/scss/mobile-angular-ui.scss",
-          "tmp/sm-grid.css": "src/scss/sm-grid.scss",
-          "tmp/mobile-angular-ui-desktop.css": "src/scss/mobile-angular-ui-desktop.scss"
+          "tmp/mobile.css": "src/less/mobile-angular-ui.less",
+          "tmp/sm-grid.css": "src/less/sm-grid.less",
+          "tmp/mobile-angular-ui-desktop.css": "src/less/mobile-angular-ui-desktop.less"
         }
       }
     },
@@ -134,13 +133,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-cssmin");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.loadNpmTasks("grunt-contrib-sass");
+  grunt.loadNpmTasks("grunt-contrib-less");
   grunt.loadNpmTasks("grunt-concurrent");
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.task.loadTasks("tasks");
 
   grunt.registerTask("build", [ "clean:dev",
-                                "scss",
+                                "less",
                                 "smq",
                                 "split-hover",
                                 "concat",
