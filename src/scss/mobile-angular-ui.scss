@@ -25,49 +25,49 @@
 // ==========================================
 
 // Core variables and mixins
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/mixins";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
 
 // Reset
-@import "bootstrap/scss/normalize";
+@import "bootstrap/normalize";
 
 // Core CSS
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/scaffolding";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/type";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/code";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/grid";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/tables";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/forms";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/buttons";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/type";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/code";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/tables";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/forms";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/buttons";
 
 // Components
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/component-animations";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/dropdowns";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/button-groups";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/input-groups";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/navs";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/navbar";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/pager";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/labels";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/badges";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/thumbnails";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/alerts";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/progress-bars";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/media";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/list-group";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/panels";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/wells";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/close";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/component-animations";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/dropdowns";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/button-groups";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/input-groups";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/navs";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/navbar";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/pager";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/labels";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/badges";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/alerts";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/progress-bars";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/media";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/list-group";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/panels";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/wells";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/modals";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/tooltip";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/popovers";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/modals";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/carousel";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/modals";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/tooltip";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/popovers";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/modals";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/carousel";
 
 // Utility classes
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/utilities";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap/scss/responsive-utilities";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/utilities";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities";
 
 // ==========================================
 //   Mobile Angular Ui Stuffs
