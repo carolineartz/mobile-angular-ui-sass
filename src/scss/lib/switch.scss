@@ -29,15 +29,15 @@
 
     .switch-handle {
       border-color: $switch-active-color;
-      .translate($switch-handle-diameter,0);
+      @include translate($switch-handle-diameter,0);
     }
   }
 }
 
 .switch-transition-enabled {
-  .transition(~"background-color 200ms ease, border 200ms ease");
+  @include transition(background-color 200ms ease; border 200ms ease);
 }
 
 .switch-transition-enabled>.switch-handle{
-  .transition-transform(~"200ms ease, background-color 200ms ease");
+  @include transition-transform(200ms ease; background-color 200ms ease);
 }

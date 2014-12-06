@@ -21,16 +21,16 @@
             top:0;
             bottom: 0;
             right: 0;
-            margin: @overlay-margin;
-            background: @overlay-background;
-            z-index: @zindex-modal-background;
+            margin: $overlay-margin;
+            background: $overlay-background;
+            z-index: $zindex-modal-background;
         }
         >.overlay-dismiss {
             position: absolute;
-            right: @overlay-dismiss-margin-right;
-            top: @overlay-dismiss-margin-top;
-            z-index: @zindex-modal + 1;
-            font-size: @overlay-dismiss-font-size;
+            right: $overlay-dismiss-margin-right;
+            top: $overlay-dismiss-margin-top;
+            z-index: $zindex-modal + 1;
+            font-size: $overlay-dismiss-font-size;
         }
         >.overlay-content {
             width: 100%;
@@ -38,15 +38,15 @@
             display: table;
             background: transparent;
             text-align: center;
-            color: @overlay-content-color;
+            color: $overlay-content-color;
             height: 100%;
-            z-index: @zindex-modal;
+            z-index: $zindex-modal;
             position: absolute;
             left:0;
             top:0;
             bottom: 0;
             right: 0;
-            padding: @overlay-content-padding;
+            padding: $overlay-content-padding;
             >.overlay-body {
                 display: table-cell;
                 vertical-align: middle;
@@ -61,9 +61,9 @@
 }
 
 .overlay-in>.app,.overlay-in>.sidebar {  
-    -webkit-filter: blur(@overlay-blur);
-    -moz-filter: blur(@overlay-blur);
-    -o-filter: blur(@overlay-blur);
-    -ms-filter: blur(@overlay-blur);            
-    filter: blur(@overlay-blur);
+    -webkit-filter: blur($overlay-blur);
+    -moz-filter: blur($overlay-blur);
+    -o-filter: blur($overlay-blur);
+    -ms-filter: blur($overlay-blur);            
+    filter: blur($overlay-blur);
 }

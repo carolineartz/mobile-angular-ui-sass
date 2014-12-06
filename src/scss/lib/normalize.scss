@@ -2,14 +2,14 @@ ng-view,
 ng-include,
 ng-transclude,
 ui-state {
-  display: block;
+   display: block;
 }
 
 a {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 ng-view.app-content,
-.app-content>ng-view {
-  height: 100%;
+.app-content > ng-view {
+   height: 100%;
 }
