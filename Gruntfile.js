@@ -34,12 +34,11 @@ module.exports = function(grunt) {
         dest: 'dist/fonts'
       }
     },
-
-    less: {
+    sass: {
       dist: {
         options: {
-          outputStyle: 'nested',
-          paths: ["src/scss", "bower_components"]
+          style: 'nested',
+          loadPath: ["src/scss", "bower_components"]
         },
         files: {
           "tmp/mobile.css": "src/scss/mobile-angular-ui.scss",
@@ -140,7 +139,7 @@ module.exports = function(grunt) {
   grunt.task.loadTasks("tasks");
 
   grunt.registerTask("build", [ "clean:dev",
-                                "scss",
+                                "sass",
                                 "smq",
                                 "split-hover",
                                 "concat",
